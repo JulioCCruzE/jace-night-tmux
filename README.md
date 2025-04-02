@@ -1,2 +1,3 @@
-# jace-night-tmux
-My own theme for tmux
+## Tmux theme
+
+Was inspired in tokyo-night-tmux theme.
