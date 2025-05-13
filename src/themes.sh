@@ -52,6 +52,30 @@ case $SELECTED_THEME in
   )
   ;;
 
+"jace")
+  # Default to night theme
+  declare -A THEME=(
+    ["background"]="#00141a"
+    ["foreground"]="#839495"
+    ["black"]="#002d38"
+    ["blue"]="#00529f"
+    ["cyan"]="#04f5ff"
+    ["green"]="#00ff85"
+    ["magenta"]="#bb9af7"
+    ["red"]="#D00027"
+    ["white"]="#ffffff"
+    ["yellow"]="#fdf667"
+
+    ["bblack"]="#002d38"
+    ["bblue"]="#00529f"
+    ["bcyan"]="#04f5ff"
+    ["bgreen"]="#00ff85"
+    ["bmagenta"]="#38003c"
+    ["bred"]="#e90052"
+    ["bwhite"]="#ffffff"
+    ["byellow"]="#febe10"
+  )
+  ;;
 *)
   # Default to night theme
   declare -A THEME=(
